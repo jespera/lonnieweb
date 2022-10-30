@@ -90,7 +90,7 @@
 }
 
 body {
-    --bg: #ffeecb;
+    --bg: #ffffff;
     background-color: var(--bg);
     font-size: larger;
 }
