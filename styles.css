@@ -1,4 +1,3 @@
-
 .center {
     width: 800px;
     margin-top: 0;
@@ -24,6 +23,15 @@
 .top img {
     background-color: green;
     height: var(--h);
+}
+
+.card img {
+    margin-right: 0.5em;
+    float: left;
+    border-color: black;
+    border-style: solid;
+    border-width: 6px;
+    width: 30%;
 }
 
 .top h1 {
@@ -59,13 +67,13 @@
 
 .menu .active {
     background-color: rgb(26, 60, 39);
-;
+    ;
 }
 
 .menu a {
     text-decoration: none;
     /* color: rgb(227, 255, 227); */
-    color: var(--bg); 
+    color: var(--bg);
 }
 
 .cover {
@@ -97,25 +105,25 @@ body {
 
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 90%;
-  border-radius: 5px;
-  margin: 4px;
-  background-color: white;
-  float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 90%;
+    border-radius: 5px;
+    margin: 4px;
+    background-color: white;
+    float: left;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-  border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .card .container {
-  padding: 2px 16px 10px 16px;
+    padding: 2px 16px 10px 16px;
 }
 
 .card a {
