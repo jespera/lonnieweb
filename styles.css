@@ -25,6 +25,15 @@
     height: var(--h);
 }
 
+.norm img {
+    margin-right: 0.5em;
+    float: left;
+    border-color: black;
+    border-style: solid;
+    border-width: 6px;
+    width: 40%;
+}
+
 .card img {
     margin-right: 0.5em;
     float: left;
