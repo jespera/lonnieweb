@@ -1,3 +1,9 @@
+.page {
+    width:  1655px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .center {
     width: 800px;
     margin-top: 0;
@@ -23,6 +29,10 @@
 .top img {
     background-color: green;
     height: var(--h);
+}
+
+.banner {
+    background-color: #eba5b0;;
 }
 
 .norm img {
@@ -58,7 +68,7 @@
 
 .menu {
     width: 100%;
-    background-color: rgb(0, 45, 0);
+    background-color: #8fab23;
     font-family: sans-serif;
     font-size: larger;
 }
@@ -76,11 +86,11 @@
 }
 
 .menu li:hover {
-    background-color: rgb(26, 60, 39);
+    background-color: #71871c;
 }
 
 .menu .active {
-    background-color: rgb(26, 60, 39);
+    background-color: #71871c;
     ;
 }
 
@@ -94,8 +104,9 @@
     width: 100%;
     height: 300px;
     display: block;
-    background-image: url("cover.png");
-    background-repeat: repeat-x;
+    background-image: url("cover-strand.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
 }
 
 .shaded {
